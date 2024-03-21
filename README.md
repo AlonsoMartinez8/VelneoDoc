@@ -1,7 +1,10 @@
 # VELNEO DOC
 **Velneo** es un *software ERP para PYMES*.
+
 En éste artículo se proporcionará una **guía** para comenzar a crear **soluciones desde cero**.
+
 La guía está **basada en el [tutorial oficial](https://www.youtube.com/watch?v=hyis3F4YMaY&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&pp=iAQB) de Velneo** y aportará un **contenido esquematizado** que ayudará a ubicar rápidamente las respuestas a nuestras dudas.
+
 Para ejemplificar, estaremos creando una *App* que gestiona las **facturas de venta de una empresa**.
 ### Requisitos
 - Estar registrados en **miVelneo**
