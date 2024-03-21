@@ -1,0 +1,11 @@
+Id,Name,CIF,Email,Teléfono,Dirección,Exento,Forma de pago
+1,Mario Conde,40123456W,mconde@velneo.com,623945622,"Plaza Mayor, 25 1º D
+08020 Barcelona",No,C
+2,Jesús Arboleya,12345678J,jarboleya@velneo.com,610294382,"Calle Uría, 23 2º Izq.
+33002 Oviedo",No,V
+3,María José González,23456789A,maria@gmail.com,600900200,"Avenida Sevilla, 12º Bajo
+28034 Madrid",Sí,P
+4,Isabel García Menéndez,23456781B,isabel@gmail.com,611511411,"Avenida Valencia, 102º
+28042 Madrid",No,S
+5,Julio Fernández Pérez,23456782C,julio@gmail.com,622922033,"Avenida Toledo, 202º
+28089 Madrid",Sí,T
