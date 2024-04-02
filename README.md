@@ -72,6 +72,19 @@ Tras ello, en el apartado usuarios pulsar en '**+**':
 3. Eliminar objetos predeterminados del proyecto de aplicación
 ## 3. Crear tablas y procesos de importación
 > [Crear tablas y procesos de importación - Tutorial oficial](https://www.youtube.com/watch?v=dIlU1iYypSk&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=8&pp=iAQB)
+
+1. Abrir proyecto de **datos**
+2. **Importador de tablas**
+3. **Tipo** de fichero, **separador** y **formato** numérico
+4. Seleccionar **fichero** a importar
+5. **Check** en *Al importar, preguntar si se vacía la tabla*
+6. Revisar *nombre*, *tipo*, *tamaño* de los campos
+7. Revisar si **indexar** y añadir a *trozos* y/o *palabras*
+> Al indexar por **trozos**, indexa por tercios : 
+> Julio -> [Jul, uli, lio]
+
+>Al indexar por **palabras**, indexa cada palabra:
+>Julio Gómez -> [Julio, Gómez]
 ## 4. Crear esquema e iconos
 > [Crear esquema e iconos - Tutorial oficial](https://www.youtube.com/watch?v=OtQl9py5CVk&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=9&pp=iAQB)
 ## 5. Crear relaciones de tablas
