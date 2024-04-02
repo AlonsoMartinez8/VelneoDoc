@@ -62,6 +62,14 @@ Tras ello, en el apartado usuarios pulsar en '**+**':
 - Asignar a un **grupo** (opcional)
 ## 2. Editar y crear solución
 > [Editar y crear solución - Tutorial oficial](https://www.youtube.com/watch?v=fLT8Cb2u8Vg&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=6&pp=iAQB)
+
+1. Conectar con el servidor
+2. Crear solución
+	- Establecer nombre de la solución
+	- Check en compartido para poder reutilizar la solución
+	- Plantilla de datos, aplicación o datos y aplicación
+	-  Idiomas
+3. Eliminar objetos predeterminados del proyecto de aplicación
 ## 3. Crear tablas y procesos de importación
 > [Crear tablas y procesos de importación - Tutorial oficial](https://www.youtube.com/watch?v=dIlU1iYypSk&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=8&pp=iAQB)
 ## 4. Crear esquema e iconos
