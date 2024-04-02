@@ -87,6 +87,22 @@ Tras ello, en el apartado usuarios pulsar en '**+**':
 >Julio Gómez -> [Julio, Gómez]
 ## 4. Crear esquema e iconos
 > [Crear esquema e iconos - Tutorial oficial](https://www.youtube.com/watch?v=OtQl9py5CVk&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=9&pp=iAQB)
+
+1. **Organizar**:
+	- Crear carpeta **Tablas** -> Añadir todas las tablas
+	- Crear carpeta **Recursos**/*Importación* -> Añadir los procesos de importación de las tablas
+	- Crear carpeta **Recursos**/*Iconos*
+2. **Crear iconos**
+	- *Objetos* -> ***Iconos material***:
+		- Buscar icono
+		- Establecer color
+		- Establecer tamaño
+	- Crear un icono para cada tabla
+	- Guardar iconos en la carpeta Iconos
+3. **Crear esquema**
+	- **Galería de objetos** -> **Esquema**
+	- Representar todas las tablas en el esquema
+	- Establecer en cada tabla su **icono correspondiente**: Seleccionar tabla -> **Dibujo** -> Seleccionar icono
 ## 5. Crear relaciones de tablas
 > [Crear relaciones de tablas - Tutorial oficial](https://www.youtube.com/watch?v=-P7tPOB-6eQ&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=10&pp=iAQB)
 ## 6. Generar la interfaz y ejecutar la aplicación
