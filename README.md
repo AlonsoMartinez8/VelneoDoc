@@ -54,6 +54,12 @@ Para ejemplificar, estaremos creando una *App* que gestiona las **facturas de ve
 
 ## 1. Administrar y crear usuario
 > [Administrar y crear usuario - Tutorial oficial](https://www.youtube.com/watch?v=8OvJ26DkngM&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=5&pp=iAQB)
+
+Conectar a VAdmin con el usuario **velneo**.
+Tras ello, en el apartado usuarios pulsar en '**+**':
+- Rellenar campos: *nombre*, *mail*...
+- Determinar **rol** del usuario en **estilos**: (*supervisor*, *cuenta desactivada*...)
+- Asignar a un **grupo** (opcional)
 ## 2. Editar y crear solución
 > [Editar y crear solución - Tutorial oficial](https://www.youtube.com/watch?v=fLT8Cb2u8Vg&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=6&pp=iAQB)
 ## 3. Crear tablas y procesos de importación
