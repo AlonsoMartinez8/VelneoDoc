@@ -105,6 +105,28 @@ Tras ello, en el apartado usuarios pulsar en '**+**':
 	- Establecer en cada tabla su **icono correspondiente**: Seleccionar tabla -> **Dibujo** -> Seleccionar icono
 ## 5. Crear relaciones de tablas
 > [Crear relaciones de tablas - Tutorial oficial](https://www.youtube.com/watch?v=-P7tPOB-6eQ&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=10&pp=iAQB)
+
+### Manualmente
+**Ejemplo: *Relación entre Facturas y Cliente***
+- Una factura tiene un cliente -> 1-1
+- Un cliente puede tener muchas facturas -> Cliente(**Maestro**) - Facturas (**Plurales**)
+
+En la tabla **Facturas**, establecemos en el campo *Cliente*:
+- Tabla enlazada: Clientes
+- Tipo de enlace: Maestro
+
+En la tabla Clientes se crea un **enlace plural**
+
+**Ejemplo: *Relación entre Suscripciones con Cliente y Artículo***
+- Una suscripción viene dada por un Cliente y un Artículo
+	- En el campo Cliente de la tabla Suscripciones, la tabla enlazada apunta a la tabla maestra Cliente
+	- En el campo Artículo de la tabla Suscripciones, la tabla enlazada apunta a la tabla maestra Artículo
+- **Particularidad**: una suscripción para un cliente y un artículo **no debe estar duplicada**, debería ser única
+	- El **índice** de cliente, en lugar de *aceptar repetidas*, lo declaramos como *tipo de índice*: **clave única**
+	- Además de indexar el cliente, podemos crear una parte de índice del campo **Artículo**
+> De esta forma el binomio cliente-artículo no puede estar repetido
+
+> Repetimos el proceso en el índice de artículo, de forma que el binomio artículo-cliente tampoco se pueda repetir
 ## 6. Generar la interfaz y ejecutar la aplicación
 > [Generar la interfaz y ejecutar la aplicación - Tutorial oficial](https://www.youtube.com/watch?v=7rhx_Qej0RU&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=11&pp=iAQB)
 ## 7. Configurar contenidos iniciales de campos
