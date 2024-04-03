@@ -202,6 +202,19 @@ En el **proyecto de aplicación** iremos a la **carpeta Facturas**.
 	- **Formato numérico pie**: *Local*
 ## 10. Ajustar formulario de facturas
 > [Ajustar formulario de facturas - Tutorial oficial](https://www.youtube.com/watch?v=wjzv8PItXWs&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=15&pp=iAQB)
+
+Los formularios se conforman de **campos** y de ***layouts***.
+Podemos ubicar los campos dentro de su respectivo layout.
+
+En el **proyecto de aplicación** iremos a la **carpeta Facturas**.
+
+1. Vamos hacia el **formulario** Facturas en la carpeta rosa.
+2. Eliminamos campos innecesarios seleccionándolos y pulsando el botón de la papelera.
+3. Podemos reubicar los campos seleccionándolos y arrastrándolos en el editor.
+4. Podemos mover campos de otros formularios cortando y pegando o arrastrándolos desde inspectores.
+5. Se puede deshabilitar el tabulador y desactivar el campo (estableciendo 0 en condición activo)
+6. Podemos ordenar los controles por orden para la tabulación.
+7. Podemos crear un Alternador: Sirve para almacenar el diseño de una rejilla y poder ser reutilizado desde formularios u otras rejillas.
 ## 11. Crear configuración con variables globales
 > [Crear configuración con variables globales - Tutorial oficial](https://www.youtube.com/watch?v=fTD_r8WUVlw&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=16&pp=iAQB)
 ## 12. Ajustar interfaz de artículos
