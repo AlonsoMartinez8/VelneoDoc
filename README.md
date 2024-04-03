@@ -167,6 +167,22 @@ Los **contenidos iniciales** son el **valor** que van a **asumir** determinados 
 	2. Establecemos la **fórmula** requerida. En éste caso *round(net(#CANTIDAD * #PRECIO, #PORCENTAJE_DESCUENTO), 2)*
 ## 8. Crear actualizaciones para realizar cálculos
 > [Crear actualizaciones para realizar cálculos - Tutorial oficial](https://www.youtube.com/watch?v=F0ZDD-wIOUY&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=13&pp=iAQB)
+
+*Ejemplificaremos con los totales de las Facturas.*
+
+El campo Total de la tabla Factura es igual a la suma del Total de sus Líneas (restando IVA ...)
+
+- En la tabla Facturas tenemos el campo Base
+- En la tabla Líneas tenemos el campo Factura -> Las líneas apuntan a una factura
+
+1. En la tabla Líneas creamos una **nueva actualización** sobre el campo Factura.
+2. A ésta actualización le proporcionamos un nuevo ***Componente de actualización****
+3. A éste componente de actualización le asignamos un identificador
+4. En el **campo**, le asignamos el campo Base
+5. En el **modo**, lo declaramos como Acumular
+6. En la **fórmula** establecemos : *#TOTAL*. Acumulará los totales de las líneas en la Base Imponible
+
+> Componente de actualización -> Es el cálculo que necesitamos que realice la actualización.
 ## 9. Ajustar rejilla de facturas
 > [Ajustar rejilla de facturas - Tutorial oficial](https://www.youtube.com/watch?v=uQYpqe14Sao&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=14&pp=iAQB)
 ## 10. Ajustar formulario de facturas
