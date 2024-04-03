@@ -129,6 +129,22 @@ En la tabla Clientes se crea un **enlace plural**
 > Repetimos el proceso en el índice de artículo, de forma que el binomio artículo-cliente tampoco se pueda repetir
 ## 6. Generar la interfaz y ejecutar la aplicación
 > [Generar la interfaz y ejecutar la aplicación - Tutorial oficial](https://www.youtube.com/watch?v=7rhx_Qej0RU&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=11&pp=iAQB)
+
+En el proyecto de aplicación generaremos la interfaz.
+1. Pulsamos en **Generar Interfaz**
+2. En la configuración, marcamos *Generar para ejecución en Web*
+3. Seleccionamos todas las tablas
+4. Click en *Generar Interfaz*
+
+Para comprobar ejecutamos la aplicación.
+> Si es la **primera vez** que ejecutamos nos aparecerá una modal: Para poder ejecutar se necesitan instancias...
+Pulsaremos en **SÍ** -> Creará las tablas en el disco del servidor.
+
+> Debemos establecer **nombre** de la aplicación y **crear** o **reutilizar** la instancia de datos
+
+> Establecer **grupos** de usuarios
+
+Al haberse generado la interfaz, en la opción **importar**, importamos todas las **tablas**.
 ## 7. Configurar contenidos iniciales de campos
 > [Configurar contenidos iniciales de campos - Tutorial oficial](https://www.youtube.com/watch?v=MrCyk5G5F4s&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=12&pp=iAQB)
 ## 8. Crear actualizaciones para realizar cálculos
