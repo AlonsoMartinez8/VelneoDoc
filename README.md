@@ -147,6 +147,24 @@ Pulsaremos en **SÍ** -> Creará las tablas en el disco del servidor.
 Al haberse generado la interfaz, en la opción **importar**, importamos todas las **tablas**.
 ## 7. Configurar contenidos iniciales de campos
 > [Configurar contenidos iniciales de campos - Tutorial oficial](https://www.youtube.com/watch?v=MrCyk5G5F4s&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=12&pp=iAQB)
+
+Los **contenidos iniciales** son el **valor** que van a **asumir** determinados campos al crearse un registro.
+
+- **Ejemplo**: *Asumir la fecha de las facturas*.
+	1. En la tabla Factura, en el campo fecha, pulsamos en *contenido inicial*
+	2. Establecemos la **fórmula** requerida. En éste caso *currentDate()*
+
+- **Ejemplo**: *Asumir la cantidad de las líneas*.
+	1. En la tabla Líneas, en el campo cantidad, pulsamos en *contenido inicial*
+	2. Establecemos **1** como cantidad por **defecto**.
+
+- **Ejemplo**: *Asumir el precio de las líneas*.
+	1. En la tabla Líneas, en el campo precio, pulsamos en *contenido inicial*
+	2. Establecemos la **fórmula** requerida. En éste caso *#ARTÍCULO.PRECIO_VENTA*
+
+- **Ejemplo**: *Asumir el total de las líneas*.
+	1. En la tabla Líneas, en el campo total, pulsamos en *contenido inicial*
+	2. Establecemos la **fórmula** requerida. En éste caso *round(net(#CANTIDAD * #PRECIO, #PORCENTAJE_DESCUENTO), 2)*
 ## 8. Crear actualizaciones para realizar cálculos
 > [Crear actualizaciones para realizar cálculos - Tutorial oficial](https://www.youtube.com/watch?v=F0ZDD-wIOUY&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=13&pp=iAQB)
 ## 9. Ajustar rejilla de facturas
