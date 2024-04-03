@@ -185,6 +185,21 @@ El campo Total de la tabla Factura es igual a la suma del Total de sus Líneas (
 > Componente de actualización -> Es el cálculo que necesitamos que realice la actualización.
 ## 9. Ajustar rejilla de facturas
 > [Ajustar rejilla de facturas - Tutorial oficial](https://www.youtube.com/watch?v=uQYpqe14Sao&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=14&pp=iAQB)
+
+En el **proyecto de aplicación** iremos a la **carpeta Facturas**.
+- La carpeta **rosa** es la asociada a la *interfaz*.
+- La carpeta **amarilla** contiene *objetos* sin interfaz visual.
+- La carpeta **verde** contiene las *acciones*.
+
+1. Vamos hacia la **rejilla** Facturas en la carpeta rosa.
+2. **Eliminamos** columnas no deseadas. Nos colocamos en la columna y pulsamos el botón de papelera.
+3. Tenemos **opciones** como el *nombre*, la *alineación*, el *ancho*...
+4. Para **reubicar** la columna podemos pulsar las flechas **↑↓** y situarla donde proceda
+5. Podemos e**stablecer un pie** a las columnas: *Ejemplificamos modificando la primera columna, en éste caso Fecha y le agregamos un pie.*
+	- Seleccionamos la columna
+	- **Tipo de contenido de pie**: *Forma absoluta numérica*
+	- **Contenido de pie**: Dato a sumar. En éste caso establecemos una **variable del sistema** *sysListSize*
+	- **Formato numérico pie**: *Local*
 ## 10. Ajustar formulario de facturas
 > [Ajustar formulario de facturas - Tutorial oficial](https://www.youtube.com/watch?v=wjzv8PItXWs&list=PL-bVpgNOlmiqRMSzdjXg3oLHsUymwkKfX&index=15&pp=iAQB)
 ## 11. Crear configuración con variables globales
